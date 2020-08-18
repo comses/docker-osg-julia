@@ -1,5 +1,11 @@
 FROM opensciencegrid/osgvo-ubuntu-xenial
 
+LABEL opensciencegrid.name="Julia"
+LABEL opensciencegrid.description="Ubuntu based image with Julia"
+LABEL opensciencegrid.url="https://julialang.org/"
+LABEL opensciencegrid.category="Languages"
+LABEL opensciencegrid.definition_url="https://github.com/opensciencegrid/osgvo-julia"
+
 # install julia and packages 
 RUN cd /opt && \
     wget -nv https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.3-linux-x86_64.tar.gz && \

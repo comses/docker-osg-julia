@@ -1,0 +1,7 @@
+{
+    "opensciencegrid.name": "Julia",
+    "opensciencegrid.description": "Ubuntu based image with Julia"
+    "opensciencegrid.url": "https://julialang.org/",
+    "opensciencegrid.category": "Languages",
+    "opensciencegrid.definition_url": "https://github.com/opensciencegrid/osgvo-julia"
+}
