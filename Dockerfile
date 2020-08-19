@@ -18,3 +18,5 @@ RUN /opt/julia-1.0.3/bin/julia /opt/install.jl && \
     rm -f /opt/install.jl && \
     find /opt/julia-1.0.3/share/julia/compiled/ -perm 600 -exec chmod 644 {} \;
 
+COPY .singularity.d /.singularity.d
+
